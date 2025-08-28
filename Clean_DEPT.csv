@@ -1,0 +1,201 @@
+Patient_ID,Full_Name,AGE,SEX,DOB,Visit_Date,DEPT,Physician,Diagnosis,ICD-10,Procedures,Medications,BP,Heart_Rate,Temperature,BMI,Admission_Type,INSURANCE,Bill_Amount,Outcome
+PT-0001 ,John Smith,45,M, 1979-03-22 , 2024-01-11 ,Er, Dr Bello , Malaria , A09 ," CBC, X-Ray "," Paracetamol, Amoxicillin ", 120/80 , 78 bpm , 37.2 C , 24.5 , OPD , NHIS , â‚¦5400 ," Discharged
+"
+pt0002 ,Jane Doe,46,F, 05/11/1985 , NA ,Cardiology, DR. JOHNSON , Hypertension , I10 ," ECG, CT Scan ", Lisinopril , 140 - 95 , 88 , 98.2Â°F ," 32,1 ", Inpatient , Self-pay , ---- ," Admitted
+"
+PT_0003 ,Chidi Ngozi,61,F, 1963/07/15 , 03-Jun-2025 ,Pediatrics," ""Dr. GarcÃ­a "" ", Pneumonia , J10 ," CBC, MRI "," Ceftriaxone, Salbutamol ", 132 /88 , , 36.5Â°C , â€” , EMERGENCY , Reliance , â‚¦24000 ," Referred
+"
+pt-0004 ,Ibrahim Okoro,38,M, ?? ," Jul 21, 2023 ",Orthopedics, Prof. Li , Fracture - Radius , S52.5 ," Casting, X-Ray "," Ibuprofen, ORS ", 115/75 , 64 , LOW , 27.8 , opd , AXA , $120 ," NA
+"
+PT0005* ,Ada Mensah,72,F, 0000-00-00 , not recorded ,Oncology, Dr. MÃ¼ller ," ""Anemia "" ", D64.9 ," Urinalysis, Physio ", Zinc ,  , 92 bpm , 37.0 , null , Day Case , â€” , pending ," unknown
+"
+PT-0006 ,Funmi Adebayo,19,F, 01/01/2005 , 14-Feb-2024 ,Radiology, Dr O'Neil , Typhoid , A04.0 , CT Scan , Azithromycin , 129 \\ 85 , 79 , 36.9C , 22.5 kg/m2 , opd , NHIS , 23450 ," Discharged
+"
+PT-0007 ,Chris Brown,85,M, 15/04/1939 , 02/05/24 ,Er, Dr. Smith , Diabetes Type II , E11 ," MRI, CBC "," Metformin, Insulin ", 162-100 , 58 , 37.1Â°C , 30.2 , Inpatient , Aetna , â‚¦120000 ," Admitted
+"
+pt_0008 ,Morgan Li,29,M, 12-Dec-1995 , 06/03/2024 ,Neuro, Dr. Adaeze , Migraine , R51 ," ECG, Nebulization ", Paracetamol , N/A , 103 bpm , 98Â°F , 19.4 , emergency , Blue Cross , --- ," Left AMA
+"
+PT-0009 ,Ngozi Okafor,46,F, 17-Aug-1990 , 2025-05-05 ,Gyn/Ob," ""Dr Bello "" ", UTI , N39.0 , Urinalysis , Amoxicillin , 111 / 72 , 75 , 36.4 Â°C , NA , IN-PT , NHIS , â‚¦8300 ," Admitted
+"
+PT-0010 ,John Doe,46,M, 31/04/1972 , 2024/10/09 ,General med, DR. JOHNSON , Gastritis? , K29.7 ," Ultrasound, CBC ", Omeprazole , 125/85 , , 37.8 , 24.1 , opd , NA , null ," Follow-up
+"
+PT0011 ,Leslie MÃ¼ller,54,F, 1969-02-18 , 2025-03-01 ,Cardiology, DR. JOHNSON , Hypertension , I10 ," ECG, Blood Culture ", Lisinopril , 139-95 , 88 bpm , 38.1Â°C , 33.2 , Inpatient , NHIS , â‚¦20000 ," Discharged
+"
+pt-0012 ,Alex O'Neil,40,M, NA , 01-May-2025 ,Er, Dr. A. Bello , Influenza , J10 ," CBC, X-Ray ", Paracetamol , 128 / 83 , 79 , 100.1Â°F , 26.7 , EMERGENCY , n/a , â‚¦10500 ," Admitted
+"
+PT-0013 ,Ngozi Chukwu,46,F, 1980-07-07 , 2023-08-11 ,Oncology, Dr MÃ¼ller , Malaria , A09 ," ""CT Scan "" ", Artemether/Lumefantrine ,  , null , 36.7 Â°C , 28.0 , opd , Blue Cross , â‚¦9000 ," Referred
+"
+PT0014 ,Hauwa Hassan,36,F, 11/11/1988 , not recorded ,Pediatrics," ""Prof. Li "" ", Dengue , A00 ," CBC, MRI ", Ceftriaxone , 142/96 , 82 bpm , LOW , 20.5 kg/m2 , Day Case , â€” , pending ," Discharged
+"
+PT-0015 ,Emeka Johnson,65,M, --- , 05-Mar-2024 ,Ent, Dr. Okoro , COVID-19 , U07.1 ," X-Ray, O2 Therapy "," Zinc, Omeprazole ",  , 95 , 38.4 Â°C , â€” , IN-PT , NHIS , â‚¦180000 ," Deceased
+"
+PT-0016 ,Ayo Ogunleye,58,M, 1966/04/01 , 23-Jul-2024 ,Emergency," ""Dr. GarcÃ­a "" ", Malaria , A09 ," CBC, Urinalysis ", Artemether/Lumefantrine , 134/90 , 88 bpm , 36.5 Â°C , 25.0 , OPD , NHIS , â‚¦12000 ," Follow-up
+"
+pt-0017 ,Kemi Adeyemi,47,F, 1977-11-03 , 2025-02-12 ,Cardiology, Dr. Smith , Hypertension , I10 ," ECG, CT Scan "," Lisinopril, Metformin ", 145 - 95 , , 37.6 C , 29.3 , IN-PT , Reliance , â‚¦15000 ," Discharged
+"
+PT_0018 ,Ibrahim Ahmed,46,M, NA , 2024-08-18 ,Er, Prof. Li , Typhoid , A04.0 , X-Ray , Azithromycin , 120 / 70 , 70 , 99Â°F , â€” , Emergency , â€” , 8400 ," Referred
+"
+PT0019 ,Chukwu Tunde,31,M, 1992/10/05 , 2025/07/20 ,Pediatrics," ""Dr Bello"" ", Asthma , J45 ," Nebulization, ECG ", Salbutamol ,  , 82 bpm , 36.8 Â°C , 21.5 , opd , Blue Cross , pending ," Left AMA
+"
+pt-0020 ,Ngozi Adebayo,59,F, NA , 03/06/2023 ,Oncology, Dr O'Neil , Pneumonia , J10 ," CBC, MRI, CT Scan ", Ceftriaxone , 150/102 , 98 bpm , 38.5 Â°C , 34.0 , inpatient , NHIS , â‚¦34000 ," Admitted
+"
+PT-0021 ,Hauwa Li,42,F, 1982-07-01 , 02-Feb-2025 ,Orthopedics, Dr MÃ¼ller , Fracture - Radius , S52.5 ," Casting, X-Ray ", Ibuprofen , 129/88 , 64 , 97.1Â°F , 25.7 , OPD , Self-pay , 21000 ," Admitted
+"
+PT0022 ,Funmi Mbaye,64,F, 21/05/1960 , 2024-04-04 ,General med, DR. JOHNSON , Gastritis , K29.7 ," Ultrasound, CBC ", Omeprazole , 110-80 , , LOW , 29.4 , Day Case , Aetna , â‚¦15600 ," Discharged
+"
+PT-0023 ,Chris Doe,46,M, 17-Oct-2000 , not recorded ,Er, Dr Bello , Influenza , J10 , Urinalysis , Paracetamol , 135/85 , NA , 36.6 C , 23.4 , opd , NHIS , ---- ," Follow-up
+"
+pt_0024 ,Jordan GarcÃ­a,22,M, 2002-08-30 , 15-Jul-2023 ,Radiology," ""Prof. Li "" ", Migraine , R51 , MRI ," Paracetamol, Omeprazole ", 120-79 , 85 , 36.5Â°C , 20.5 , OPD , â€” , pending ," Discharged
+"
+PT0025 ,Ngozi Hassan,36,F, --- , 25-Jun-2024 ,Pediatrics, Dr. Smith , Anemia , D64.9 ," CBC, Blood Culture ", Zinc , 141/97 , 101 bpm , 37.9Â°C , null , IN-PT , NHIS , 20000 ," Unknown
+"
+PT-0026 ,Morgan Smith,55,F, 15/03/1969 , 2023-09-10 ,Er, DR. JOHNSON , UTI , N39.0 ," Urinalysis, CT Scan ", Amoxicillin , N/A , 68 , 38.2Â°C , â€” , Emergency , Blue Cross , â‚¦8700 ," Referred
+"
+PT-0027 ,Emeka O'Neil,44,M, 1980/12/20 , 2024-05-15 ,Cardiology, Dr MÃ¼ller , Hypertension , I10 , ECG , Lisinopril , 170-110 , 95 bpm , 39.0 Â°C , 35.0 , Inpatient , Self-pay , â‚¦54000 ," Admitted
+"
+pt-0028 ,Adaeze Okafor,33,F, 1990-01-01 , 2023/08/30 ,Neuro, Dr. Adaeze , Migraine , R51 , Nebulization , Salbutamol , 125/78 , , 36.3 Â°C , 19.9 , opd , AXA , 12300 ," Discharged
+"
+PT-0029 ,Sam Chukwu,46,M, NA , 14-Jan-2024 ,Oncology, Dr. Bello , Malaria , A09 , CBC , Artemether/Lumefantrine ,  , 77 , 38.5 Â°C , 20.0 , OPD , Reliance , --- ," Referred
+"
+PT0030 ,Ayo Johnson,61,M, 03/06/1963 , 05-Feb-2024 ,Er, Dr. GarcÃ­a , Typhoid , A04.0 ," CT Scan, X-Ray ", Azithromycin , 138/92 , 91 bpm , 36.7 C , 24.6 , EMERGENCY , Self-pay , â‚¦25000 ," Admitted
+"
+PT-0031 ,Ngozi Li,28,F, 1996-04-14 , 2025-06-01 ,Pediatrics, Prof. Li , Pneumonia , J10 , MRI , Ceftriaxone , 146-101 , , 37.8Â°C , 30.0 , OPD , â€” , NA ," Left AMA
+"
+PT0032 ,Pat Brown,39,M, 1984-10-22 , 02/02/2024 ,Orthopedics, Dr MÃ¼ller , Fracture - Radius , S52.5 ," X-Ray, Casting ", Ibuprofen , 144-96 , 65 , 36.9Â°C , 28.0 , Inpatient , NHIS , â‚¦18000 ," Discharged
+"
+pt-0033 ,Leslie Adeyemi,46,F, --- , 2023/03/15 ,Radiology, Dr. Smith , UTI , N39.0 , Urinalysis , Amoxicillin , 120/80 , 84 bpm , 36.8 Â°C , 23.2 , Day Case , Aetna , null ," Referred
+"
+PT-0034 ,John Mbaye,72,M, 1952/02/10 , 19-Apr-2025 ,Er, DR. JOHNSON , Diabetes Type II , E11 ," MRI, ECG "," Metformin, Insulin ", 132/78 , 97 , 37.4 C , 31.0 , EMERGENCY , Blue Cross , â‚¦32000 ," Admitted
+"
+PT-0035 ,Taylor Ahmed,51,F, 1973/07/23 , NA ,Cardiology, Dr. Bello , Hypertension , I10 ," ECG, Blood Culture ", Lisinopril , 138/95 , NA , 36.7 Â°C , 30.5 , Inpatient , â€” , ---- ," Follow-up
+"
+pt_0036 ,Ngozi Chukwu,66,F, 1958-01-15 , 2025-07-19 ,General med, Dr MÃ¼ller , Anemia , D64.9 , CBC ," Zinc, Omeprazole ", 139/90 , 92 bpm , 38.2 Â°C , null , OPD , Reliance , â‚¦11000 ," Discharged
+"
+PT-0037 ,Chris Okoro,48,M, --- , 2023-12-12 ,Er, Dr. Adaeze , Influenza , J10 , CBC , Paracetamol ,  , 82 , 37.1Â°C , 25.5 , OPD , NHIS , â‚¦5600 ," Admitted
+"
+PT0038 ,Ada Bello,25,F, 1999-08-01 , 2025-02-11 ,Pediatrics, Dr Bello , Malaria , A09 ," X-Ray, Urinalysis ", Artemether/Lumefantrine , 145/93 , , 36.9 Â°C , 22.0 , OPD , Aetna , 7200 ," Discharged
+"
+PT-0039 ,Emeka Smith,59,M, NA , 2023/11/15 ,Oncology, Dr. GarcÃ­a , Pneumonia , J10 , MRI , Ceftriaxone , N/A , 89 bpm , 37.8 Â°C , â€” , Inpatient , Self-pay , â‚¦28000 ," Unknown
+"
+pt-0040 ,Jane O'Neil,43,F, 1980/09/13 , 2025-03-03 ,Orthopedics, Dr MÃ¼ller , Fracture - Radius , S52.5 , Casting , Ibuprofen , 121/77 , 75 , 37.2 Â°C , 26.3 , IN-PT , Reliance , â‚¦16000 ," Discharged
+"
+PT-0041 ,Morgan Adaeze,46,F, NA , 2023-10-10 ,Radiology, Dr Bello , Typhoid , A04.0 , CT Scan , Azithromycin , 131/85 ,  , 36.6 Â°C , 24.1 , OPD , NHIS , pending ," Referred
+"
+PT0042 ,Sam Ahmed,36,M, 1987-04-09 , not recorded ,Er, Dr. Smith , Hypertension , I10 , ECG , Lisinopril , 137/94 , 90 bpm , 38.1Â°C , 27.8 , EMERGENCY , â€” , 18400 ," Admitted
+"
+PT-0043 ,Ayo Li,55,M, 1969-07-15 , 2024-06-11 ,Pediatrics, Dr MÃ¼ller , Anemia , D64.9 , CBC , Zinc , 145-100 ,  , 36.9Â°C , null , Inpatient , Self-pay , â‚¦12000 ," Discharged
+"
+pt0044 ,Pat Johnson,41,F, --- , 2025-05-21 ,Oncology, Dr Bello , Malaria , A09 , Urinalysis , Artemether/Lumefantrine , 120/85 , 80 bpm , 37.0Â°C , 28.2 , OPD , NHIS , â‚¦9100 ," Admitted
+"
+PT-0045 ,Ngozi O'Neil,46,F, NA , 2024-07-07 ,Er, DR. JOHNSON , Influenza , J10 ," CBC, X-Ray ", Paracetamol , 139/89 , 73 , LOW , 22.4 , Emergency , Aetna , ---- ," Follow-up
+"
+P046 , Andrew  Stone ,47,M, 1976-09-13 , 2024-04-11 ,Cardiology, Dr. Adams , angina , I20 , ECG ," nitro, aspirin ", 142/92 , 82 , 98.9 , 27.4 , emergency , UnitedHealth , 1700 ," discharged
+"
+P047 ,Beatrice  Cole,46,F, 1981-01-25 , --- ,Orthopedics, Dr Brown , broken wrist , S62 , Xray , ibuprofen , 124/80 , 75 , 99.5 , 23.6 , elective , NA , 400 ," discharged
+"
+P048 ,Samuel Ade,52,M, 1971-03-05 , 2024-07-02 ,Oncology, Dr lee , lung cancer , C34 , Biopsy , chemo , 160/98 , 101 , 100.9 , 29.0 , urgent , BlueCross , ---- ," expired
+"
+P049 ,Wong Li,34,F, 1989-12-18 , 2024-05-29 ,Pediatrics, dr.green , measles , B05 , NA , paracetamol , 119/76 , 80 , 98.1 , NA , emergency , Aetna , 250 ," discharged
+"
+P050 ,Patel  Kiran,46,M, n/a , 2024-06-14 ,Neuro, Dr.White , seizure , G40 , MRI , valproate , NA , 90 , 99.7 , 24.8 , urgent , Medicare , 1300 ," admitted
+"
+P051 , Laura  King,41,F, 1982-07-07 , NA ,Gyn/Ob, Dr Adams , prenatal check , Z34 , Ultrasound , vitamins , 118/77 , 76 , --- , 23.3 , elective , Cigna , 600 ," discharged
+"
+P052 ,Ahmed Musa,28,M, 1995-10-20 , 2024-08-01 ,Emergency, Dr.Brown , accident trauma , T14 , X-ray , morphine , 145/95 , 100 , 101.2 , 26.9 , emergency , NA , 3100 ," admitted
+"
+P053 ,,63,M, 1960-02-02 , 2024-02-14 ,Cardiology, Dr Lee , arrhythmia , I49 , ECG , amiodarone , 155/99 , 95 , 100.5 , 30.5 , emergency , Medicare , n/a ," expired
+"
+P054 ,Gloria Mensah,36,F, 1987-11-08 , 2024-05-21 ,Dermatology, dr.white , eczema , L30 , --- , loratadine , 122/78 , 71 , 98.4 , 22.5 , elective , BlueShield , 550 ," discharged
+"
+P055 ,Jonathan Ike,46,M, 1980-09-15 , 2024-07-25 ,Neuro, Dr.Green , stroke , I63 , CT Scan , aspirin , 150/95 , n/a , 100.3 , 28.8 , urgent , UnitedHealth , 2800 ," admitted
+"
+P056 ,,50,F, 1973-04-19 , 2024-03-09 ,Oncology, Dr Adams , breast cancer , C50 , Biopsy , tamoxifen , 148/94 , 87 , 100.6 , 27.0 , elective , BlueCross , 2200 ," expired
+"
+P057 , David Otis,37,M, 1986-01-04 , --- ,Cardiology, Dr Lee , hypertension , I10 , ECG , atenolol , NA , 84 , 99.1 , 25.2 , urgent , Medicare , 1300 ," discharged
+"
+P058 ,Helena  George,29,F, 1994-05-11 , 2024-04-25 ,Pediatrics, Dr.Brown , NA , J20 , spirometry , salbutamol , 120/80 , 78 , 98.2 , --- , emergency , Cigna , 700 ," discharged
+"
+P059 ,Yusuf Bello,44,M, 1979-07-08 , not recorded ,Neuro, dr.green , epilepsy , G40 , EEG , carbamazepine , 132/86 , 89 , 99.9 , 26.0 , urgent , Aetna , NA ," admitted
+"
+P060 ,,46,F, 1988-02-02 , 2024-06-05 ,Gyn/Ob, Dr.White , pregnancy , Z34 , --- , iron tabs , 110/70 , 74 , 98.7 , 22.0 , elective , UnitedHealth , 500 ," discharged
+"
+P061 ,Henry Cole,56,M, 1967-10-11 , 2024-08-12 ,Cardiology, Dr. Adams , heart failure , I50 ," ECG, Echo ", digoxin , 165/102 , 97 , 101.1 , 31.5 , emergency , Medicare , 4000 ," expired
+"
+P062 ,Sara  Ibrahim,39,F, 1984-03-15 , --- ,Derm, Dr lee , acne , L70 , --- , benzoyl peroxide , 115/75 , 70 , 98.6 , 23.0 , elective , NA , 300 ," discharged
+"
+P063 ,Michael  Adeyemi,48,M, 1975-09-01 , 2024-04-03 ,Oncology, Dr. Brown , prostate cancer , C61 , biopsy , leuprolide , 158/96 , 92 , 100.7 , 29.4 , urgent , Cigna , 2600 ," admitted
+"
+P064 ,Naomi  West,46,F, --- , 2024-07-07 ,Pediatrics, Dr.Green , asthma , J45 , spirometry , salbutamol , 126/82 , 77 , 98.2 , 24.1 , emergency , BlueCross , --- ," discharged
+"
+P065 ,Peter Obi,62,M, 1961-12-12 , 2024-05-16 ,Neuro, Dr.White , stroke , I63 , MRI , aspirin , 152/97 , 94 , 100.8 , 28.5 , emergency , Aetna , 3100 ," expired
+"
+P066 ,Angela  Kim,35,F, 1988-06-28 , 2024-06-20 ,Derm, Dr lee , dermatitis , L20 , skin test , loratadine , NA , 73 , 98.4 , 22.6 , elective , UnitedHealth , 480 ," discharged
+"
+P067 ,,46,M, 1977-01-09 , 2024-07-30 ,Cardiology, dr.brown , angina , I20 , ECG , nitroglycerin , 139/88 , 85 , --- , 26.8 , urgent , Medicare , 1700 ," discharged
+"
+P068 , Chioma  Eze ,27,F, 1996-04-12 , --- ,Gyn/Ob, Dr.Green , prenatal , Z34 , ultrasound , vitamins , 116/74 , 72 , 98.8 , 23.2 , elective , BlueShield , 500 ," discharged
+"
+P069 ,Ahmed  Khan,70,M, 1953-10-02 , 2024-05-09 ,Oncology, Dr Adams , lung cancer , C34 , biopsy , chemo , 165/100 , 105 , 101.5 , 30.2 , emergency , Cigna , 4200 ," expired
+"
+P070 ,Fatou  Diallo,46,F, 1985-11-17 , NA ,Derm, dr lee , eczema , L30 , --- , cream , 121/79 , 74 , 98.3 , NA , elective , Aetna , 520 ," discharged
+"
+P071 ,Daniel  Wu,51,M, 1972-08-26 , 2024-06-10 ,Cardiology, Dr.White , arrhythmia , I49 , ECG , amiodarone , 150/94 , 91 , 100.4 , 27.8 , urgent , Medicare , 2500 ," admitted
+"
+P072 ,,33,F, --- , 2024-04-14 ,Neuro, Dr.Green , migraine , G43 , MRI , paracetamol , 130/85 , 84 , 99.3 , 24.5 , emergency , Cigna , 900 ," discharged
+"
+P073 ,Hassan Bello,59,M, 1964-02-21 , 2024-07-22 ,Oncology, Dr lee , prostate cancer , C61 , biopsy , --- , 156/98 , 96 , 100.9 , 28.9 , urgent , UnitedHealth , 2700 ," admitted
+"
+P074 ,Grace  Park,40,F, 1983-05-05 , 2024-05-18 ,Derm, Dr.Brown , acne , L70 , NA , isotretinoin , 118/76 , 72 , 98.6 , 23.1 , elective , BlueCross , 800 ," discharged
+"
+P075 ,,65,M, 1958-03-14 , 2024-08-02 ,Cardiology, Dr. Adams , heart failure , I50 , ECG , digoxin , 170/104 , 108 , 101.7 , 31.2 , emergency , Medicare , ---- ," expired
+"
+P076 , Anita  John,22,F, 2001-07-19 , 2024-06-28 ,Gyn/Ob, Dr.Green , pregnancy , Z34 , ultrasound , vitamins , 112/71 , 74 , 98.9 , 21.8 , elective , Cigna , 450 ," discharged
+"
+P077 ,Victor  Hugo,48,M, 1975-10-10 , --- ,Neuro, dr.white , seizure , G40 , EEG , valproate , 140/90 , 88 , 100.0 , 26.4 , urgent , Aetna , 1200 ," admitted
+"
+P078 ,,36,F, 1987-12-03 , 2024-03-11 ,Oncology, Dr.Brown , breast cancer , C50 , biopsy , tamoxifen , 148/96 , 92 , 100.5 , 27.3 , elective , UnitedHealth , 2500 ," expired
+"
+P079 ,Emmanuel  Ade,30,M, 1993-09-07 , 2024-08-08 ,Derm, Dr lee , rash , L30 , --- , loratadine , 117/75 , 70 , 98.2 , 22.2 , elective , BlueShield , NA ," discharged
+"
+P080 , Naomi  Scott ,46,F, 1991-01-14 , 2024-04-22 ,Gyn/Ob, Dr.Adams , prenatal , Z34 , ultrasound , vitamins , 115/73 , --- , 98.7 , 23.4 , elective , Medicare , 620 ," discharged
+"
+P081 ,David  Paul,53,M, 1970-12-19 , 2024-05-27 ,Cardiology, Dr Green , angina , I20 , ECG , nitroglycerin , 146/93 , 89 , 100.1 , 28.1 , emergency , Aetna , 1900 ," discharged
+"
+P082 ,,61,M, 1962-02-05 , 2024-07-15 ,Neuro, Dr.Brown , stroke , I63 , MRI , aspirin , 158/99 , 95 , 100.6 , 29.7 , urgent , UnitedHealth , 3300 ," admitted
+"
+P083 , Fatima Bello,25,F, --- , 2024-06-30 ,Pediatrics, Dr.White , asthma , J45 , spirometry , salbutamol , 121/78 , 76 , 98.4 , 22.1 , emergency , Cigna , 700 ," discharged
+"
+P084 ,Samuel  Wright,49,M, 1974-09-16 , 2024-03-06 ,Oncology, Dr lee , prostate cancer , C61 , biopsy , leuprolide , 160/100 , 98 , 101.2 , 28.7 , urgent , BlueCross , 2800 ," expired
+"
+P085 ,,37,F, 1986-08-11 , NA ,Derm, Dr.Green , eczema , L30 , --- , cream , 119/77 , 74 , 98.5 , 23.0 , elective , Aetna , 540 ," discharged
+"
+P086 , Kelvin  Amos,55,M, 1968-07-29 , 2024-07-12 ,Cardiology, Dr.White , arrhythmia , I49 , ECG , amiodarone , 152/98 , 97 , 100.8 , 29.2 , urgent , UnitedHealth , 2500 ," admitted
+"
+P087 ,Diana  Roberts,43,F, 1980-06-04 , 2024-05-04 ,Gyn/Ob, dr.brown , prenatal , Z34 , ultrasound , vitamins , 114/72 , 73 , --- , 23.5 , elective , BlueShield , 580 ," discharged
+"
+P088 , Ibrahim  Musa ,46,M, --- , 2024-08-05 ,Neuro, Dr. Adams , epilepsy , G40 , EEG , carbamazepine , 134/87 , 90 , 99.8 , 25.7 , urgent , Medicare , NA ," admitted
+"
+P089 ,Grace  Eze,64,F, 1959-02-08 , 2024-06-23 ,Oncology, Dr lee , breast cancer , C50 , biopsy , tamoxifen , 150/95 , 94 , 100.4 , 28.6 , elective , BlueCross , 2600 ," expired
+"
+P090 ,,38,M, 1985-01-30 , --- ,Derm, Dr.Green , rash , L20 , --- , loratadine , 122/79 , 76 , 98.6 , 23.1 , elective , Aetna , 520 ," discharged
+"
+P091 , Tony  Okoro,45,M, 1978-11-25 , 2024-07-18 ,Cardiology, Dr.White , hypertension , I10 , ECG , atenolol , 140/92 , 86 , 99.6 , 27.0 , urgent , Medicare , 1500 ," discharged
+"
+P092 ,Janet  Lee,46,F, 1992-10-21 , 2024-04-30 ,Gyn/Ob, Dr. Adams , prenatal , Z34 , ultrasound , vitamins , 112/71 , 74 , 98.7 , 22.7 , elective , UnitedHealth , 500 ," discharged
+"
+P093 ,Musa  Ibrahim,58,M, 1965-05-19 , 2024-05-13 ,Neuro, dr brown , stroke , I63 , CT Scan , aspirin , 154/96 , 93 , 100.5 , 29.1 , urgent , Cigna , 3000 ," admitted
+"
+P094 ,  Hannah  Cole,31,F, --- , 2024-06-08 ,Pediatrics, Dr Lee , asthma , J45 , spirometry , salbutamol , 119/76 , 75 , 98.3 , 22.4 , emergency , BlueShield , 650 ," discharged
+"
+P095 ,Ade  Johnson,46,M, 1977-08-03 , NA ,Cardiology, Dr.Green , heart failure , I50 , ECG , digoxin , 166/101 , 99 , 101.3 , 30.8 , emergency , Medicare , 3500 ," expired
+"
+P096 ,,27,F, 1996-09-27 , 2024-08-09 ,Derm, Dr Adams , eczema , L30 , --- , cream , 120/78 , 73 , 98.5 , 22.0 , elective , Aetna , 500 ," discharged
+"
+P097 , Richard  Stone,67,M, 1956-02-13 , 2024-03-20 ,Oncology, Dr lee , prostate cancer , C61 , biopsy , leuprolide , 162/99 , 97 , 101.0 , 29.9 , urgent , BlueCross , ---- ," expired
+"
+P098 ,Diana  Paul,35,F, --- , 1988-06-07 ,Gyn/Ob, dr.white , pregnancy , Z34 , ultrasound , vitamins , 115/74 , 72 , 98.7 , 23.3 , elective , UnitedHealth , 600 ," discharged
+"
+P099 , Bashir  Ahmed ,46,M, 1979-11-11 , 2024-05-31 ,Cardiology, Dr. Brown , hypertension , I10 , ECG , atenolol , 145/93 , 90 , 99.8 , 27.2 , urgent , Medicare , 1700 ," discharged
+"
+P100 ,Gloria  Davis,42,F, 1981-02-22 , 2024-07-06 ,Neuro, Dr.Green , migraine , G43 , MRI , paracetamol , 128/83 , 82 , 99.2 , 24.6 , emergency , Cigna , 950 ," discharged
+"
